@@ -16,7 +16,7 @@ int menu()
 void setup()
 {
 	label:
-	computer=rand()%4;
+	computer=rand()%3+1;
 	if(computer==0)
 	 goto label;
 	you=menu();
